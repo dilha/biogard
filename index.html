@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/fovicon.svg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/timeTo.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="covid">
+        <div class="container">
+            <h5 class="covid__title">
+                Не переживайте , мы серьезно относимся к безопасности наших клиентов!
+            </h5>
+            <p class="covid__text">
+                Наши курьеры меняют маски и перчатки каждые 2 часа. Процесс доставки и оплаты - бесконтактный
+            </p>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__item">
+                    <img class="header__item-img" src="images/icons/header-icon1.png" alt="">
+                    <p class="header__item-text">Одобрено Министерством сельского хозяйства РФ</p>
+                </div>
+                <div class="header__item">
+                    <img class="header__item-img" src="images/icons/header-icon2.png" alt="">
+                    <p class="header__item-text">Эффективен на любом этапе развития растений</p>
+                </div>
+                <div class="header__item">
+                    <img class="header__item-img" src="images/icons/header-icon3.png" alt="">
+                    <p class="header__item-text">100% натурально</p>
+                </div>
+                <div class="header__item">
+                    <img class="header__item-img" src="images/icons/header-icon4.png" alt="">
+                    <p class="header__item-text">Высокий стандарт качества продукции</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="info" style="background-image: url(images/bg/info-bg.jpg);">
+            <div class="container">
+                <div class="info__content">
+                    <h1 class="info__title page__bold">
+                        Биогард
+                    </h1>
+                    <p class="info__subtitle">
+                        ОРГАНИЧЕСКОЕ СРЕДСТВО <br>
+                        ПРОТИВ БОЛЕЕ 400 ВИДоВ СОРНЯКОВ
+                    </p>
+                    <p class="info__text page__bold">
+                        ПРОПОЛКА БОЛЬШЕ Не ПОТРЕБУЕТСЯ!
+                    </p>
+                </div>
+                <div class="info__box">
+                    <div class="info__pack">
+                        <img src="images/info-pack.png" alt="">
+                    </div>
+                    <div class="info__inner">
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/icons/info-check.png" alt="">
+                            <p class="info__item-text">
+                                Избирательно воздействует на 400 сортов сорняков
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/icons/info-check.png" alt="">
+                            <p class="info__item-text">
+                                Не причиняет вреда культурным растениям
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/icons/info-check.png" alt="">
+                            <p class="info__item-text">
+                                Абсолютно безопасен для человека и животных
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/icons/info-check.png" alt="">
+                            <p class="info__item-text">
+                                Быстрое воздействие и высокий результат
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info__promotion">
+                    <p class="info__promotion-note">
+                        *при заказе набора
+                    </p>
+                    <div class="info__promotion-top">
+                        <div class="info__promotion-title page__bold">
+                            Успейте оформить заказ <span>ПО АКЦИИ!</span>
+                        </div>
+                        <div class="info__promotion-price">
+                            <div class="info__promotion-price-box">
+                                <p class="info__promotion-oldprice">
+                                    Старая цена
+                                    <span class="page__bold">9580тнг</span>
+                                </p>
+                                <p class="info__promotion-newprice">
+                                    Специальная цена
+                                    <span class="page__bold">99тнг*</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info__promotion-timer">
+                            <p>ДО КОНЦА <span>АКЦИИ</span> ОСТАЛОСЬ</p>
+                            <div id="countdown-1"></div>
+                        </div>
+                    </div>
+                    <form class="info__promotion-form">
+                        <select class="info__promotion-country" name="country" required>
+                            <option value="KZ">Казахстан</option>
+                            <option value="RU">Россия</option>
+                            <option value="UA">Украина</option>
+                            <option value="BY">Беларусь</option>
+                            <option value="AM">Армения</option>
+                            <option value="KG">Кыргызстан</option>
+                            <option value="UZ">Узбекистан</option>
+                        </select>
+                        <input class="info__promotion-name" type="text" placeholder="Ваше имя" required>
+                        <input class="info__promotion-phone" type="number" placeholder="Номер телефона" required>
+                        <button class="info__promotion-btn page__bold">
+                            Заказать Биогард
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="gardeners" style="background-image: url(images/bg/gardeners-bg.jpg);">
+            <div class="container">
+                <div class="gardeners__box">
+                    <h3 class="gardeners__title page__bold">
+                        Садоводы со <span class="country1">всего Казахстана</span> ежегодно сталкиваются с проблемами!
+                    </h3>
+                    <p class="gardeners__subtitle">
+                        Более 70% семян не всходит, 60% рассады погибает в первые 3 недели после высадки
+                    </p>
+                    <p class="gardeners__text">
+                        Виной тому сорная трава! Она намного сильнее ваших молодых саженцев, потому что ее корневая система созрела уже много лет назад. Сорняк забирает у саженцев все питательные вещества, а вскоре и солнечный свет. Им попросту не пробиться сквозь сор.
+                    </p>
+
+                    <div class="gardeners__inner">
+                        <div class="gardeners__item">
+                            <img class="gardeners__item-img" src="images/gardeners-item1.jpg" alt="">
+                            <p class="gardeners__item-text">
+                                Большая часть вашей жизни уходит на прополку огорода
+                            </p>
+                        </div>
+                        <div class="gardeners__item">
+                            <img class="gardeners__item-img" src="images/gardeners-item2.jpg" alt="">
+                            <p class="gardeners__item-text">
+                                Боль в спине и порезы – ваши постоянные спутники
+                            </p>
+                        </div>
+                        <div class="gardeners__item">
+                            <img class="gardeners__item-img" src="images/gardeners-item3.jpg" alt="">
+                            <p class="gardeners__item-text">
+                                Вы физически не справляетесь с сорняками
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="weeds" style="background-image: url(images/bg/weeds-bg.jpg)">
+            <div class="container">
+                <div class="weeds__box" style="background-image: url(images/bg/weeds-box-bg.jpg)">
+
+                    <h3 class="weeds__title page__bold">
+                        Биогард - гербицид для всех видов сорняков
+                    </h3>
+                    <p class="weeds__text">
+                        Биогард - уникальное средство <span class="country3">казахской</span> разработки для борьбы с 400 видами сорняковых растений. Вот лишь самые распространенные из них.
+                    </p>
+                    <div class="weeds__inner">
+                        <div class="weeds__item">
+                            <img class="weeds__item-img" src="images/weeds-img1.png" alt="">
+                            <div class="weeds__item-content">
+                                <h6 class="weeds__item-title page__bold">
+                                    Пырей
+                                </h6>
+                                <p class="weeds__item-text">
+                                    Очень устойчив, размножается корневищами практически на любом типе почве. От пырея надо избавляться, особенно если планируется посадка картофеля.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="weeds__item">
+                            <img class="weeds__item-img" src="images/weeds-img2.png" alt="">
+                            <div class="weeds__item-content">
+                                <h6 class="weeds__item-title page__bold">
+                                    Вьюнок полевой
+                                </h6>
+                                <p class="weeds__item-text">
+                                    Разветвленные корни полевого вьюнка уходят в землю на глубину до пяти метров, поэтому полностью избавиться от растения очень сложно.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="weeds__item">
+                            <img class="weeds__item-img" src="images/weeds-img3.png" alt="">
+                            <div class="weeds__item-content">
+                                <h6 class="weeds__item-title page__bold">
+                                    Портулак огородный
+                                </h6>
+                                <p class="weeds__item-text">
+                                    Длина стебля – около 60 см, побеги одного растения могут покрыть значительную площадь огорода.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="weeds__item">
+                            <img class="weeds__item-img" src="images/weeds-img4.png" alt="">
+                            <div class="weeds__item-content">
+                                <h6 class="weeds__item-title page__bold">
+                                    Мокрица
+                                </h6>
+                                <p class="weeds__item-text">
+                                    мокрица разрастается в сплошной зеленый ковер. От этого сорняка сильно страдают посевы моркови.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="weeds__item">
+                            <img class="weeds__item-img" src="images/weeds-img5.png" alt="">
+                            <div class="weeds__item-content">
+                                <h6 class="weeds__item-title">
+                                    Щирица запрокинутая Семеня
+                                </h6>
+                                <p class="weeds__item-text">
+                                    сорняка не боятся механических воздействий и сохраняют способность к прорастанию на протяжении 5-40 лет.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weeds__botton">
+                <button class="weeds__btn page__btn page__bold">
+                    Заказать Биогард
+                </button>
+            </div>
+        </section>
+
+        <section class="formula" style="background-image: url(images/bg/formula-bg.jpg)">
+            <div class="container">
+                <h3 class="formula__title page__bold">
+                    Больше не нужно часами пропалывать огород в ущерб здоровью
+                </h3>
+                <p class="formula__text">
+                    Уникальная формула "Биогарда" не только убивает сорняки, но и насыщает благородные культуры полезными компонентами.
+                </p>
+                <div class="formula__inner">
+                    <div class="formula__item">
+                        <h6 class="formula__item-title page__bold">
+                            ЭТАНОВАЯ КИСЛОТА
+                        </h6>
+                        <img class="formula__item-img" src="images/ethan.png" alt="">
+                        <p class="formula__item-text">
+                            Убивает около 400 известных сорняковых растений, лишая их возможности питаться через корневую систему.
+                        </p>
+                    </div>
+                    <div class="formula__item">
+                        <h6 class="formula__item-title page__bold">
+                            ХЛОРИД НАТРИЯ
+                        </h6>
+                        <img class="formula__item-img" src="images/chloride.png" alt="">
+                        <p class="formula__item-text">
+                            Обезвоживает паразитные сорняки, лишенных способности к фотосинтезу, тем самым увивая их.
+                        </p>
+                    </div>
+                    <div class="formula__pack">
+                        <img class="formula__pack-img" src="images/formula-pack.png" alt="">
+                    </div>
+                    <div class="formula__item">
+                        <h6 class="formula__item-title page__bold">
+                            ТРЁХОСНОВНАЯ КАРБОНОВАЯ КИСЛОТА
+                        </h6>
+                        <img class="formula__item-img" src="images/carbon.png" alt="">
+                        <p class="formula__item-text">
+                            Защищает ваши растения от паразитов, которые обитают как на поверхности, так и в почве.
+                        </p>
+                    </div>
+                    <div class="formula__item">
+                        <h6 class="formula__item-title page__bold">
+                            ПОВЕРХНОСТНО-АКТИВНОЕ ВЕЩЕСТВО (ПАВ)
+                        </h6>
+                        <img class="formula__item-img" src="images/pav.png" alt="">
+                        <p class="formula__item-text">
+                            Делает стенки растения твердыми, листву сочной, цветы и плоды крупными и насыщенными вкусом.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="opinion" style="background-image: url(images/bg/opinion-bg.jpg)">
+            <div class="container">
+                <div class="opinion__title">
+                    <h2>
+                        Биогард
+                    </h2>
+                    <h3>
+                        Мнение эксперта: <span>не стоит срывать спину прополкой</span>
+                    </h3>
+                </div>
+                <div class="opinion__inner">
+                    <div class="opinion__item">
+                        <p class="opinion__item-text">
+                            Хорошего урожая не стоит ждать, если вы не обработали почву средством от сорняков. Разумеется, вы можете не вылезать из огорода, пропалывая вновь и вновь появляющуюся траву. Но не каждый похвастается крепким здоровьем. В итоге большинство огородников получает максимум 20-30% урожая, потому что сорная трава забирает весь свет и питание, не давая полезным культурам развиваться.
+                        </p>
+                        <p class="opinion__item-name">
+                            Александра Григорьева, Агроном, Член Союза Агрономов РФ.
+                        </p>
+                        <img class="opinion__item-img" src="images/expert-sign.png" alt="">
+                    </div>
+                    <img class="opinion__img" src="images/opinion-img.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="max">
+            <div class="container">
+                <h3 class="max__title page__bold">
+                    УНИКАЛЬНАЯ РАЗРАБОТКА <span class="country2">казахских</span> УЧЕНЫХ ИЗ НОВОСИБИРСКА
+                </h3>
+                <p class="max__subtitle">
+                    Глобальное исследование выявило около 400 видов сорняковых растений, распространенных именно в <span class="country2">казахских</span> широтах.
+                </p>
+                <div class="max__inner">
+                    <div class="max__item">
+                        <img src="images/max-img1.png" alt="">
+                        <p class="max__item-text">
+                            Подходит для обработки плодоносящих растений
+                        </p>
+                    </div>
+                    <div class="max__item">
+                        <img src="images/max-img2.png" alt="">
+                        <p class="max__item-text">
+                            Не вредит почве и культурным растениям
+                        </p>
+                    </div>
+                    <div class="max__item">
+                        <img src="images/max-img3.png" alt="">
+                        <p class="max__item-text">
+                            Уничтожает более 400 видов сорных трав
+                        </p>
+                    </div>
+                    <div class="max__item">
+                        <img src="images/max-img4.png" alt="">
+                        <p class="max__item-text">
+                            Абсолютно безопасен для человека и животных
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="attention">
+            <div class="container">
+                <div class="attention__body">
+
+                    <div class="attention__top">
+                        <img class="attention__apple" src="images/attention-apple.png" alt="">
+                        <div class="attention__info">
+                            <p class="attention__info-red page__bold">
+                                Внимание!
+                            </p>
+                            <h3 class="attention__info-title page__bold">
+                                Недобросовестные производители изготавливают химические гербициды!
+                            </h3>
+                            <p class="attention__info-text">
+                                Вы замечали, что под видом "натуральных", многие производители продают средства с вредными, химическим образом синтезированными веществами?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="attention__inner">
+                        <div class="attention__item">
+                            <img class="attention__item-img" src="images/attention-img1.jpg" alt="">
+                            <h6 class="attention__item-title page__bold">
+                                Ядохимикаты
+                            </h6>
+                            <p class="attention__item-text">
+                                Отлично убивают вредителей и сорняки, но неизбежно проникают в зелень и плоды. Попадая в пищу, приводят к пищевым отравлениям и инфекциям.
+                            </p>
+                        </div>
+                        <div class="attention__item">
+                            <img class="attention__item-img" src="images/attention-img2.jpg" alt="">
+                            <h6 class="attention__item-title page__bold">
+                                Инсектициды
+                            </h6>
+                            <p class="attention__item-text">
+                                Уничтожают большинство нассекомых, но запрещены в удобрениях на всей территории РФ. Приводят к болезни и смерти скота, домашних животных.
+                            </p>
+                        </div>
+                        <div class="attention__item">
+                            <img class="attention__item-img" src="images/attention-img3.jpg" alt="">
+                            <h6 class="attention__item-title page__bold">
+                                Пестициды
+                            </h6>
+                            <p class="attention__item-text">
+                                Избавляют от сорняков злаковые и овощные культуры. При вдыхании человеком ведет к болезням дыхательных путей, легких и сердца.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="attention__note">
+                <div class="container">
+                    <div class="attention__note-box">
+                        <img class="attention__note-img" src="images/icons/attention-note-icon.png" alt="">
+                        <p class="attention__note-text">
+                            Напоминаем, что "Биогард" является полностью органическим препаратом и не содержит компонентов химической промышленности.
+                        </p>
+                    </div>
+                    <button class="attention__btn page__btn page__bold">
+                        Заказать Биогард
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="use" style="background-image: url(images/bg/use-bg.jpg)">
+            <div class="container">
+                <div class="use__top">
+                    <img class="use__top-img" src="images/use-pack.png" alt="">
+                    <div class="use__top-content">
+                        <div class="use__top-title page__bold">
+                            КАК ИСПОЛЬЗОВАТЬ БИОГАРД В САДУ, НА УЧАСТКЕ И В ТЕПЛИЦЕ?
+                        </div>
+                        <p class="use__top-text page__bold">
+                            Биогард идеально подходит для удобрения растений в любых условиях и в любое время года. Для достижения великолепного результата необходимо следовать правилам:
+                        </p>
+                    </div>
+                </div>
+                <div class="use__inner">
+                    <div class="use__item">
+                        <div class="use__item-number">
+                            <p class="page__bold">1</p>
+                        </div>
+                        <img class="use__item-img" src="images/use-img1.jpg" alt="">
+                        <p class="use__item-text">
+                            Сделайте раствор из расчета 25 мл Биогарда на 3 литра воды
+                        </p>
+                    </div>
+                    <div class="use__item">
+                        <div class="use__item-number">
+                            <p class="page__bold">2</p>
+                        </div>
+                        <img class="use__item-img" src="images/use-img2.jpg" alt="">
+                        <p class="use__item-text">
+                            Для полива можно использовать пластиковые или железные лейки и ведра. Полив осуществляется обильно вокруг растений.
+                        </p>
+                    </div>
+                    <div class="use__item">
+                        <div class="use__item-number">
+                            <p class="page__bold">3</p>
+                        </div>
+                        <img class="use__item-img" src="images/use-img3.jpg" alt="">
+                        <p class="use__item-text">
+                            С помощью опрыскивателя распылите раствор на листву и цветки для опыления, усиления цветения и плодоношения.
+                        </p>
+                    </div>
+                </div>
+
+                <ul class="use__list">
+                    <li class="use__list-item">
+                        Полностью безопасен в использовании
+                    </li>
+                    <li class="use__list-item">
+                        Безвреден для детей и домашних животных
+                    </li>
+                    <li class="use__list-item">
+                        Замедляет рост сорняков
+                    </li>
+                    <li class="use__list-item">
+                        Отпугивает вредителей
+                    </li>
+                </ul>
+
+                <div class="use__feed">
+                    <h5 class="use__feed-title page__bold">
+                        Мнения садоводов об активаторе роста Биогард
+                    </h5>
+                    <div class="use__slider">
+                        <div class="use__slider-item">
+                            <img class="use__slider-img" src="images/feed-img1.jpg" alt="">
+                            <div class="use__slider-content">
+                                <h6 class="use__slider-title page__bold">
+                                    Ольга, Санкт-Петербург
+                                </h6>
+                                <p class="use__slider-text">
+                                    Жизнь стала намного легче. Раньше весь дачный сезон приходилось заниматься
+                                    прополкой огорода. А в прошлом году мне поставили межпозвоночную грыжу. Думала
+                                    придется завязать с огородом, зарастет без меня. А тут сын купил
+                                    Биогард. Полили огород один раз, через неделю почти весь сор пожух. Второй раз
+                                    полили, сор засох. А мои саженцы здоровые зеленые. Так что всем советую
+                                    попробовать. Силы экономин несравнимо!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="use__slider-item">
+                            <img class="use__slider-img" src="images/feed-img2.jpg" alt="">
+                            <div class="use__slider-content">
+                                <h6 class="use__slider-title page__bold">
+                                    Вера, Ижевск
+                                </h6>
+                                <p class="use__slider-text">
+                                    Я очень люблю свою дачу. Но очень устаю работать на ней, все-таки возраст уже не
+                                    тот, а у меня 15 соток! Немало. Я и картошечку сажаю, и огурчики с помидорами,
+                                    перчик, лучок. И в этом году выгодала клочок земли под
+                                    цветы, очень хотела всегда. Но с сорняком бороться тяжело. Поэтому по совету
+                                    соседки по даче купила себе БИОГАРД и полила абсолютно все. Развела в ведре да
+                                    лейкой полила. И что вы думаете? Весь огород цветет и пахнет,
+                                    а сорняк умер. Грабельками сухие растки сгребла и все
+                                </p>
+                            </div>
+                        </div>
+                        <div class="use__slider-item">
+                            <img class="use__slider-img" src="images/feed-img3.jpg" alt="">
+                            <div class="use__slider-content">
+                                <h6 class="use__slider-title page__bold">
+                                    Наталья, Москва
+                                </h6>
+                                <p class="use__slider-text">
+                                    Биогард - лучшая моя находка! У меня с ним никаких хлопот по огороду теперь нет.
+                                    Я на даче не могу проводить все лето, работаю. Езжу только по выходным. Без
+                                    Биогарда все бы сразу заросло. С ним же огород чистенький.
+                                    Приезжаю собрать урожай, где огурцы подоспели, где перец подошел. Прополкой
+                                    вообще не занимаюсь
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="order">
+            <div class="container">
+                <h3 class="order__title page__bold">
+                    Как сделать заказ на Биогард и получить лучшее средство от сорняков уже завтра?
+                </h3>
+                <div class="order__inner">
+                    <div class="order__item">
+                        <img class="order__item-img" src="images/icons/order-img1.png" alt="">
+                        <h6 class="order__item-title">
+                            ЗАЯВКА
+                        </h6>
+                        <p class="order__item-text">
+                            Заполняете простую форму на сайте
+                        </p>
+                    </div>
+                    <div class="order__item">
+                        <img class="order__item-img" src="images/icons/order-img2.png" alt="">
+                        <h6 class="order__item-title">
+                            КОНСУЛЬТАЦИЯ
+                        </h6>
+                        <p class="order__item-text">
+                            Наш менеджер проконсультирует вас и оформит заказ
+                        </p>
+                    </div>
+                    <div class="order__item">
+                        <img class="order__item-img" src="images/icons/order-img3.png" alt="">
+                        <h6 class="order__item-title">
+                            ДОСТАВКА
+                        </h6>
+                        <p class="order__item-text">
+                            Надежно упаковываем и отправляем ваш заказ
+                        </p>
+                    </div>
+                    <div class="order__item">
+                        <img class="order__item-img" src="images/icons/order-img4.png" alt="">
+                        <h6 class="order__item-title">
+                            ПОЛУЧЕНИЕ
+                        </h6>
+                        <p class="order__item-text">
+                            Вы получаете посылку и оплачиваете
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info" style="background-image: url(images/bg/info-bg.jpg);">
+            <div class="container">
+                <div class="info__content">
+                    <h1 class="info__title page__bold">
+                        Биогард
+                    </h1>
+                    <p class="info__subtitle">
+                        ОРГАНИЧЕСКОЕ СРЕДСТВО <br>
+                        ПРОТИВ БОЛЕЕ 400 ВИДоВ СОРНЯКОВ
+                    </p>
+                    <p class="info__text page__bold">
+                        ПРОПОЛКА БОЛЬШЕ Не ПОТРЕБУЕТСЯ!
+                    </p>
+                </div>
+                <div class="info__box">
+                    <div class="info__pack">
+                        <img src="images/info-pack.png" alt="">
+                    </div>
+                    <div class="info__inner">
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/icons/info-check.png" alt="">
+                            <p class="info__item-text">
+                                Избирательно воздействует на 400 сортов сорняков
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/icons/info-check.png" alt="">
+                            <p class="info__item-text">
+                                Не причиняет вреда культурным растениям
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/icons/info-check.png" alt="">
+                            <p class="info__item-text">
+                                Абсолютно безопасен для человека и животных
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <img class="info__item-img" src="images/icons/info-check.png" alt="">
+                            <p class="info__item-text">
+                                Быстрое воздействие и высокий результат
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info__promotion">
+                    <p class="info__promotion-note">
+                        *при заказе набора
+                    </p>
+                    <div class="info__promotion-top">
+                        <div class="info__promotion-title page__bold">
+                            Успейте оформить заказ <span>ПО АКЦИИ!</span>
+                        </div>
+                        <div class="info__promotion-price">
+                            <div class="info__promotion-price-box">
+                                <p class="info__promotion-oldprice">
+                                    Старая цена
+                                    <span class="page__bold">9580тнг</span>
+                                </p>
+                                <p class="info__promotion-newprice">
+                                    Специальная цена
+                                    <span class="page__bold">99тнг*</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info__promotion-timer">
+                            <p>ДО КОНЦА <span>АКЦИИ</span> ОСТАЛОСЬ</p>
+                            <div id="countdown-2"></div>
+                        </div>
+                    </div>
+                    <form class="info__promotion-form">
+                        <select class="info__promotion-country" name="country" required>
+                            <option value="KZ">Казахстан</option>
+                            <option value="RU">Россия</option>
+                            <option value="UA">Украина</option>
+                            <option value="BY">Беларусь</option>
+                            <option value="AM">Армения</option>
+                            <option value="KG">Кыргызстан</option>
+                            <option value="UZ">Узбекистан</option>
+                        </select>
+                        <input class="info__promotion-name" type="text" placeholder="Ваше имя" required>
+                        <input class="info__promotion-phone" type="number" placeholder="Номер телефона" required>
+                        <button class="info__promotion-btn page__bold">
+                            Заказать Биогард
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <p>ООО "Биогард" 112984, Россия, Москва, Пушкина улица, 127, ИНН 7712947115; ОГРН 1117569145765</p>
+                <a href="#?">Политика конфиденциальности</a>
+                <a href="#?">Публичная оферта</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.time-to.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
