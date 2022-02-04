@@ -16,14 +16,12 @@
 <body>
 
     <div class="covid">
-        <div class="container">
             <h5 class="covid__title">
                 Не переживайте , мы серьезно относимся к безопасности наших клиентов!
             </h5>
             <p class="covid__text">
                 Наши курьеры меняют маски и перчатки каждые 2 часа. Процесс доставки и оплаты - бесконтактный
             </p>
-        </div>
     </div>
 
     <header class="header">
@@ -51,7 +49,7 @@
 
     <main class="main">
 
-        <section class="info" style="background-image: url(images/bg/info-bg.jpg);">
+        <section class="info">
             <div class="container">
                 <div class="info__content">
                     <h1 class="info__title page__bold">
@@ -67,6 +65,10 @@
                 </div>
                 <div class="info__box">
                     <div class="info__pack">
+                       <p class="info__pack-text">
+                           Специальная цена
+                           <span class="page__bold">99тнг*</span>
+                       </p>
                         <img src="images/info-pack.png" alt="">
                     </div>
                     <div class="info__inner">
@@ -122,7 +124,7 @@
                         </div>
                     </div>
                     <form class="info__promotion-form">
-                        <select class="info__promotion-country" name="country" required>
+                        <select class="info__promotion-country" name="country" id="select1">
                             <option value="KZ">Казахстан</option>
                             <option value="RU">Россия</option>
                             <option value="UA">Украина</option>
@@ -665,7 +667,7 @@
                         </div>
                     </div>
                     <form class="info__promotion-form">
-                        <select class="info__promotion-country" name="country" required>
+                        <select class="info__promotion-country" id="select2" name="country">
                             <option value="KZ">Казахстан</option>
                             <option value="RU">Россия</option>
                             <option value="UA">Украина</option>
