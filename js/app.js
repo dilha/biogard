@@ -36,6 +36,7 @@ $(function () {
                 $('.country3').html("российской");
                 $('.info__promotion-oldprice span').html("3900р");
                 $('.info__promotion-newprice span').html("99руб*");
+                $('.info__pack-text span').html("99руб*");
 
             } else if ($(this).val() === 'BY') {
                 $('.country1').html("всей Беларуси");
@@ -43,6 +44,7 @@ $(function () {
                 $('.country3').html("беларусской");
                 $('.info__promotion-oldprice span').html("140р");
                 $('.info__promotion-newprice span').html("3р*");
+                $('.info__pack-text span').html("3р*");
 
             } else if ($(this).val() === 'KZ') {
                 $('.country1').html("всего Казахстана");
@@ -50,6 +52,7 @@ $(function () {
                 $('.country3').html("казахской");
                 $('.info__promotion-oldprice span').html("9580тнг");
                 $('.info__promotion-newprice span').html("99тнг*");
+                $('.info__pack-text span').html("99тнг*");
 
             } else if ($(this).val() === 'UA') {
                 $('.country1').html("всей Украины");
@@ -57,6 +60,7 @@ $(function () {
                 $('.country3').html("украинской");
                 $('.info__promotion-oldprice span').html("830грн");
                 $('.info__promotion-newprice span').html("9грн*");
+                $('.info__pack-text span').html("9грн*");
 
             } else if ($(this).val() === 'KG') {
                 $('.country1').html("всего Кыргызстана");
@@ -64,6 +68,7 @@ $(function () {
                 $('.country3').html("кыргызской");
                 $('.info__promotion-oldprice span').html("2758сом");
                 $('.info__promotion-newprice span').html("110сом*");
+                $('.info__pack-text span').html("110сом*");
 
             } else if ($(this).val() === 'AM') {
                 $('.country1').html("всей Арменских");
@@ -71,6 +76,7 @@ $(function () {
                 $('.country3').html("арменской");
                 $('.info__promotion-oldprice span').html("25000др");
                 $('.info__promotion-newprice span').html("650др*");
+                $('.info__pack-text span').html("650др*");
 
             } else if ($(this).val() === 'UZ') {
                 $('.country1').html("всего Узбекистана");
@@ -78,6 +84,7 @@ $(function () {
                 $('.country3').html("узбекиской");
                 $('.info__promotion-oldprice span').html("99000сум");
                 $('.info__promotion-newprice span').html("20000сум*");
+                $('.info__pack-text span').html("20000сум*");
 
             }
         });
