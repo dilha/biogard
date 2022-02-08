@@ -16,12 +16,12 @@
 <body>
 
     <div class="covid">
-            <h5 class="covid__title">
-                Не переживайте , мы серьезно относимся к безопасности наших клиентов!
-            </h5>
-            <p class="covid__text">
-                Наши курьеры меняют маски и перчатки каждые 2 часа. Процесс доставки и оплаты - бесконтактный
-            </p>
+        <h5 class="covid__title">
+            Не переживайте , мы серьезно относимся к безопасности наших клиентов!
+        </h5>
+        <p class="covid__text">
+            Наши курьеры меняют маски и перчатки каждые 2 часа. Процесс доставки и оплаты - бесконтактный
+        </p>
     </div>
 
     <header class="header">
@@ -65,10 +65,10 @@
                 </div>
                 <div class="info__box">
                     <div class="info__pack">
-                       <p class="info__pack-text">
-                           Специальная цена
-                           <span class="page__bold">99тнг*</span>
-                       </p>
+                        <p class="info__pack-text">
+                            Специальная цена
+                            <span class="page__bold">99тнг*</span>
+                        </p>
                         <img src="images/info-pack.png" alt="">
                     </div>
                     <div class="info__inner">
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                     <form class="info__promotion-form">
-                        <select class="info__promotion-country" name="country" id="select1">
+                        <select class="info__promotion-country" name="country" id="select1" value="country">
                             <option value="KZ">Казахстан</option>
                             <option value="RU">Россия</option>
                             <option value="UA">Украина</option>
@@ -135,7 +135,7 @@
                         </select>
                         <input class="info__promotion-name" type="text" placeholder="Ваше имя" required>
                         <input class="info__promotion-phone" type="number" placeholder="Номер телефона" required>
-                        <button class="info__promotion-btn page__bold">
+                        <button class="info__promotion-btn page__bold" onclick="window.location.href='confirm.html'">
                             Заказать Биогард
                         </button>
                     </form>
@@ -250,9 +250,9 @@
                 </div>
             </div>
             <div class="weeds__botton">
-                <button class="weeds__btn page__btn page__bold">
+                <a class="weeds__btn page__btn page__bold" href="bio-guards.html">
                     Заказать Биогард
-                </button>
+                </a>
             </div>
         </section>
 
@@ -667,7 +667,7 @@
                         </div>
                     </div>
                     <form class="info__promotion-form">
-                        <select class="info__promotion-country" id="select2" name="country">
+                        <select class="info__promotion-country" id="select2" name="country" value="country">
                             <option value="KZ">Казахстан</option>
                             <option value="RU">Россия</option>
                             <option value="UA">Украина</option>
