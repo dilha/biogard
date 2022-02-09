@@ -1,4 +1,5 @@
 $(function () {
+
     $('.use__slider').slick({
         prevArrow: ' <button class="click__arrow prev"><img src="images/icons/prev.png" alt="prev"></button>',
         nextArrow: '<button class="click__arrow next"><img src="images/icons/next.png" alt="next"></button>',
@@ -90,29 +91,6 @@ $(function () {
         });
     });
 
-//    $(".select1").on('change', function () {
-//        switch ($(".select1").val()) {
-//            case "RU":
-//                $(".select2").text("RU")
-//                break;
-//            case "UA":
-//                $(".select2").val("UA")
-//                break;
-//            case "BY":
-//                $(".select2").val("BY")
-//                break;
-//            case "AM":
-//                $(".select2").val("AM")
-//                break;
-//            case "KG":
-//                $(".select2").val("KG")
-//                break;
-//            case "UZ":
-//                $(".select2").val("UZ")
-//                break;
-//            default:
-//                $(".select2").text("KZ")
-//        }
-//    });
+
 
 });

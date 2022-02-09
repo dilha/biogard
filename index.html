@@ -133,9 +133,9 @@
                             <option value="KG">Кыргызстан</option>
                             <option value="UZ">Узбекистан</option>
                         </select>
-                        <input class="info__promotion-name" type="text" placeholder="Ваше имя" required>
-                        <input class="info__promotion-phone" type="number" placeholder="Номер телефона" required>
-                        <button class="info__promotion-btn page__bold" onclick="window.location.href='confirm.html'">
+                        <input class="input-name info__promotion-name" type="text" placeholder="Ваше имя" required>
+                        <input class="input-phone info__promotion-phone" type="number" placeholder="Номер телефона" required>
+                        <button class="button-disabled info__promotion-btn page__bold">
                             Заказать Биогард
                         </button>
                     </form>
@@ -250,7 +250,7 @@
                 </div>
             </div>
             <div class="weeds__botton">
-                <a class="weeds__btn page__btn page__bold" href="bio-guards.html">
+                <a class="weeds__btn page__btn page__bold" href="#order">
                     Заказать Биогард
                 </a>
             </div>
@@ -427,7 +427,7 @@
                             Напоминаем, что "Биогард" является полностью органическим препаратом и не содержит компонентов химической промышленности.
                         </p>
                     </div>
-                    <button class="attention__btn page__btn page__bold">
+                    <button id="order" class="attention__btn page__btn page__bold" onclick="window.location.href='confirm.html'">
                         Заказать Биогард
                     </button>
                 </div>
@@ -702,6 +702,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.time-to.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
